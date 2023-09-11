@@ -4,7 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  /* --background-start-rgb: 214, 219, 220; */
+  --background-start-rgb: 36, 1, 255; 
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -24,4 +25,12 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.chatbot-icon {
+  position: fixed;
+  bottom: 85px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  cursor: pointer;
+  z-index: 999; /* Ensures it's above other content */
 }
