@@ -3,7 +3,7 @@ import TopPageNavigation from './components/TopNavBar';
 import Link from 'next/link';
 {/* <Link href="/contact">tesat</Link> */}
 
-const Home = () => {
+const Accessibility = () => {
 
   return (
     <div className="relative">
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Accessibility;
