@@ -2,6 +2,7 @@ import BottomPageNavigation from './components/BottomNavBar';
 import TopPageNavigation from './components/TopNavBar';
 import StoreCard from './components/StoreCard';
 import Image from "next/image";
+import BlankSpace from './components/BlankSpace'; 
 import Link from 'next/link';
 {/* <Link href="/contact">tesat</Link> */}
 
@@ -16,6 +17,7 @@ const Store = () => {
           <Image src={"/images/Ticket.png"} width={450} height={250} alt="ticket"/>
       </div>
       <StoreCard/>
+      <BlankSpace/>
       <BottomPageNavigation/>
     </div>
   );
