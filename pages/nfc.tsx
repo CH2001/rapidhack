@@ -18,7 +18,7 @@ const NFC = () => {
         <div className="flex items-center justify-center mt-5">
           <Image src={"/images/QRDisplay.png"} width={250} height={250} alt="qr"/>
         </div>
-        <p className="mt-5 text-center font-bold"> SCAN TO BOARD</p>
+        <p className="mt-5 text-center font-bold">SCAN TO BOARD</p>
         <BlankSpace/>
         <BottomPageNavigation/>
       </div>
