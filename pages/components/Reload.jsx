@@ -21,9 +21,9 @@ const ReloadPage = () => {
 
     return (
     <div className="justify-center ml-10 mr-10">
-        <div className="card-body bg-gray-100 shadow-xl">
+        <div className="card-body bg-white shadow-xl">
             <h2 className="card-title mb-5">Enter reload amount: </h2>
-            <input type="text" className="bg-gray-100" style={{border: 'none', outline: 'none', boxShadow: 'none' }} 
+            <input type="text" style={{border: 'none', outline: 'none', boxShadow: 'none' }} 
             value={reloadAmount}
             onChange={(e) => setReloadAmount(e.target.value)}/>
             <hr/> 
@@ -57,7 +57,7 @@ const ReloadPage = () => {
         </div>
         <br/>
 
-        <div className="card-body shadow-xl mt-3">
+        <div className="card-body shadow-xl mt-3 bg-white">
             <h2 className="card-title mb-1">Other reload methods: </h2>
             <div className="flex">
                 <div style={{ flex: '15%' }}>

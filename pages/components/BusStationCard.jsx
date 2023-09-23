@@ -78,7 +78,7 @@ const StationCard = () => {
       {jsonData.slice(currentPage * cardsPerPage, (currentPage + 1) * cardsPerPage).map((item, index) => (
         <div
           key={index}
-          className="p-4 mb-4 border rounded-lg shadow-bottom"
+          className="p-4 mb-4 border rounded-lg shadow-bottom bg-white"
           style={{ display: 'grid', gridTemplateColumns: '30% 70%', gap: '10px' }}
         >
           <div>

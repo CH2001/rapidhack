@@ -21,3 +21,11 @@
   justify-content: space-between; /* This separates the buttons */
   align-items: center; /* Vertically aligns items in the center */
 }
+
+body {
+  background-image: url('/images/Background.png');
+  background-size: cover; /* Adjust to your preferred background size behavior */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  background-position: center center; /* Center the background image */
+}

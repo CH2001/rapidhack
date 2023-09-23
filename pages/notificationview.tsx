@@ -17,7 +17,6 @@ const NotificationViewPage = () => {
             <Image src={"/images/Notification.png"} width={550} height={100} alt="notificationpic"/>
         </div>
         <NotificationView/>
-
         <BlankSpace/>
         <BottomPageNavigation/>
       </div>

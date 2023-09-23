@@ -19,6 +19,12 @@ const Accessibility = () => {
       <div style={{ fontSize: '18px' }} className="relative capitalize font-semibold mt-5 ml-5 mr-5">Inclusive Travel For All</div>
       <div style={{ fontSize: '14px' }} className="relative mb-3 ml-5 mr-5"> WeGo allows users to rate the accessibility of MRT (Mass Rapid Transit) stops based on their specific mobility needs, promoting transparency and helping others with similar requirements make informed travel choices. </div>
       <SearchBar2/>
+      <Link href="/accessibility2"> 
+        <button className="rounded-2xl flex items-center bg-dark-blue p-2 mx-auto mt-5">
+              <div style={{ fontSize: '14px' }} className="relative capitalize font-semibold text-white mr-1">Enter</div>
+              <Image src={"/images/arrow.png"} width={12} height={12} alt="arrow"/>
+        </button>
+      </Link>
       <BlankSpace/>
       <BottomPageNavigation/>
     </div>
