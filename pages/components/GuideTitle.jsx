@@ -11,28 +11,28 @@ const GuideTitle = () => {
         	</div>
 
 			<div style={{ display: 'flex'}}>
-				<div style={{ flex: '14%' }}>
+				<div className="border border-black" style={{ flex: '14%' }}>
 					<button className="flex items-center p-2 mx-auto" style={{ width: '50px', textAlign: 'center' }}>
 						<Image src={"/images/KLCC.png"} width={20} height={20}/>
 					</button>
 					<div style={{ fontSize: '14px' }} className="relative capitalize">KL Twin Tower</div>
 				</div>
 
-				<div style={{ flex: '14%' }}>
+				<div className="border border-black" style={{ flex: '14%' }}>
 					<button className="flex items-center p-2 mx-auto" style={{ width: '50px', textAlign: 'center' }}>
 						<Image src={"/images/ZooNegara.png"} width={20} height={20}/>
 					</button>
 					<div style={{ fontSize: '14px' }} className="relative capitalize">Zoo Negara</div>
 				</div>
 
-				<div style={{ flex: '14%' }}>
+				<div className="border border-black" style={{ flex: '14%' }}>
 					<button className="flex items-center p-2 mx-auto" style={{ width: '50px', textAlign: 'center' }}>
 						<Image src={"/images/BatuCaves.png"} width={20} height={20}/>
 					</button>
 					<div style={{ fontSize: '14px' }} className="relative capitalize">Batu Caves</div>
 				</div>
 
-				<div style={{ flex: '14%' }}>
+				<div className="border border-black" style={{ flex: '14%' }}>
 					<button className="flex items-center p-2 mx-auto" style={{ width: '50px', textAlign: 'center' }}>
 						<Image src={"/images/NationalMuzeum.png"} width={20} height={20}/>
 					</button>
