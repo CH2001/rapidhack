@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link"; 
-import Image from "next/image";
 
 const jsonData = [
   { "Pass Type": "One Day Pass", "Validity": "Valid for 31 days", "Price": "RM 30" },
