@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const CardButtons = () => {
   return (
-    <div className="flex justify-center mb-5">
+    <div className="flex justify-center mb-5  ml-5 mr-5">
         <div className="mt-2 card w-96 h-148"> 
             <div style={{ display: 'flex'}}>
                 {/* Reload button  */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardDisplay = () => {
   return (
-    <div className="flex justify-center ml-2 mr-2">
+    <div className="flex justify-center ml-5 mr-5">
         <div className="card w-96 p-4 h-148"
             style={{
                 backgroundImage: `url('/images/Card.png')`, 
