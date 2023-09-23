@@ -47,9 +47,9 @@ const NotificationPage = () => {
 
       {/* Select time period */}
       <div style={{ fontSize: '14px' }} className="relative capitalize font-semibold mt-5">Time period</div>
-      <div style={{ fontSize: '13px' }} className="relative capitalize mb-3"> On which days do you wsih to receive your notification?</div>
-v style=
-      <di{{ display: 'flex'}}>
+      <div style={{ fontSize: '13px' }} className="relative capitalize mb-3"> On which days do you wish to receive your notification?</div>
+
+      <div style={{ display: 'flex'}}>
         {/* Reload button  */}
         <div style={{ flex: '14%' }}>
             <button className="rounded-2xl flex items-center bg-light-blue p-2 mx-auto" style={{ width: '50px', textAlign: 'center' }}>
