@@ -13,7 +13,7 @@ const Store = () => {
         <TopPageNavigation/> 
       </div>
       <div className="flex items-center justify-center mt-5">
-          <Image src={"/images/Ticket.png"} width={550} height={250} alt="ticket"/>
+          <Image src={"/images/Ticket.png"} width={450} height={250} alt="ticket"/>
       </div>
       <StoreCard/>
       <BottomPageNavigation/>

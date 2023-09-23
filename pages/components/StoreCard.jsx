@@ -38,7 +38,7 @@ const StoreCard = () => {
           style={{ display: 'grid', gridTemplateColumns: '30% 30% 40%', gap: '10px' }}
         >
           <div>
-            <Image src={"/images/TicketIcon.png"} width={50} height={50} alt="ticket icon"/>
+            <Image src={"/images/TicketIcon.png"} width={100} height={100} alt="ticket icon"/>
           </div>
 
           <div>
