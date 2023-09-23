@@ -55,9 +55,9 @@ const BottomPageNavigation = () => {
 
             {/* Button 5 */}
             <button>
-                <button onClick={() => router.push('/BoardPage')}>
+                <Link href="/accessibility">
                     <Image src={"/images/Store.png"} width={NavBtmImgWidth} height={NavBtmImgHeight}/>
-                </button>
+                </Link>
                 <span className="btm-nav-label" style={{ fontSize: '13px' }}>Store</span>
             </button>
         </div>
