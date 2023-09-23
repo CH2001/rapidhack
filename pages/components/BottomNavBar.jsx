@@ -28,7 +28,7 @@ const BottomPageNavigation = () => {
 
             {/* Button 2 */}
             <button>
-                <Link href="/">
+                <Link href="/guide">
                     <Image src={"/images/Guide.png"} width={NavBtmImgWidth} height={NavBtmImgHeight}/>
                 </Link>
                 <span className="btm-nav-label" style={{ fontSize: '13px' }}>Guide</span>
