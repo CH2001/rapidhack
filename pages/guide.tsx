@@ -1,5 +1,6 @@
 import BottomPageNavigation from './components/BottomNavBar';
 import TopPageNavigation from './components/TopNavBar';
+import GuideTitle from './components/GuideTitle';
 import Link from 'next/link';
 {/* <Link href="/contact">tesat</Link> */}
 
@@ -11,6 +12,7 @@ const Guide = () => {
         <TopPageNavigation/> 
       </div>
       This is guide.
+      <GuideTitle/>
       <BottomPageNavigation/>
     </div>
   );
