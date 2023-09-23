@@ -47,7 +47,7 @@ const BottomPageNavigation = () => {
 
             {/* Button 4 */}
             <button>
-                <a href="/BoardPage">
+                <a href="/accessibility">
                     <Image src={"/images/Accessibility.png"} width={NavBtmImgWidth} height={NavBtmImgHeight}/>
                 </a>
                 <span className="btm-nav-label" style={{ fontSize: '13px' }}>Accessibility</span>
