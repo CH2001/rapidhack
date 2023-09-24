@@ -15,12 +15,12 @@ const TopPageNavigation = () => {
 
                 {/* Dropdown */}
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Home</a></li>
-                    <li><a>Accessibility Rating</a></li>
-                    <li><a>Guide</a></li>
-                    <li><a>Store</a></li>
-                    <li><a>My Profile</a></li>
-                    <li><a>Contact Us</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/accessibility">Accessibility Rating</Link></li>
+                    <li><Link href="/guide">Guide</Link></li>
+                    <li><Link href="/store">Store</Link></li>
+                    <li><Link href="/">My profile</Link></li>
+                    <li><Link href="/">Contact Us</Link></li>
                 </ul>
             </div>
         </div>
